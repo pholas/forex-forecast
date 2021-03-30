@@ -1,0 +1,35 @@
+{
+  "WML_CREDENTIALS": {
+    "url": "https://zen-cpd-zen.apps.cpd35.tw.icc/",
+    "username": "admin",
+    "password": "password",
+    "instance_id": "wml_local",
+    "version": "3.5"
+  },
+  "WOS_CREDENTIALS": {
+    "url": "https://zen-cpd-zen.apps.cpd35.tw.icc",
+    "username": "admin",
+    "password": "password"
+  },
+  "WOS_SERVICE_INSTANCE_ID": "00000000-0000-0000-0000-1612835997409663",
+  "DATABASE_CREDENTIALS": {
+    "hostname": "172.20.197.182",
+    "username": "db2inst1",
+    "password": "passw0rd",
+    "database": "CPD35",
+    "port": 50000,
+    "ssl": false,
+    "sslmode": "verify-full",
+    "certificate_base64": ""
+  },
+  "SCHEMA_NAME": "wos",
+  "WOS_DATA_MART_NAME": "wos_data_mart",
+  "WOS_DATA_MART_DESCRIPTION": "WOS Data Mart",
+  "WML_SPACE_NAME": "ff_space",
+  "WML_SPACE_DESCRIPTION": "financial forecast space",
+  "WML_DEPLOYMENT_NAME": "FF Sklearn Deployment",
+  "SERVICE_PROVIDER_NAME": "Watson Machine Learning V2",
+  "SERVICE_PROVIDER_DESCRIPTION": "IBM Watson Machine Learning",
+  "API_SERVER_DEBUG" : true,
+  "API_SERVER_PORT" : 6000
+}
